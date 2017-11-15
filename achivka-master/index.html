@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+
+   <title>Achivka</title>
+   
+   <link rel="shortcut icon" href="achivka.gif" type="image/x-icon">
+   <link rel="stylesheet" href="stylesheet.css">
+   
+ </head>
+ <body>
+ 	<header>
+ 		<h1 id="title">ACHIVKA</h1><hr>
+ 	</header>
+ 	
+ 	<nav>
+	 	<ul class="menu">
+	 		<li><a href="index.html" target="_blank">Лента</a></li>
+	 		<li><a href="newpost.html" target="_blank">Поделиться достижением</a></li>
+	 		<li><a href="about.html" target="_blank">О проекте</a></li> 
+	 	 </ul>		
+	 			<form id="searchbutton" action="handler.php">
+				   <p><input type=search placeholder="Введите тег или имя">
+				   <input type="submit" value="Искать"></p>
+		 		</form>		
+	</nav>
+
+	<main>
+		<h2 id="centralnote"><u>Posted lately</u></h2>
+		
+
+
+
+		<div class="feed">
+			<article class="post"> <!-- new post-->
+				<header>
+					<img class="avatar" src="ава1.jpg">
+					<p id="username"><b>hotbabe</b></p><br> <!--user's avatar and name-->
+					<p id="timeposted">Posted some time ago</p> 	<!--when post was made-->		
+				</header>
+				<div class="userimg">
+					<img class="postedimg" src="горящийдом.jpg"> <!--user's image posted-->
+				</div>
+				<div class="comment">
+					<p>Стала свидетелем поджога. Никому не скажу. Ой:)</p> <!--user's comment-->
+				</div>
+				<div class="tags">
+						<ul class="tagslist"> <!--list of tags-->
+							<li>#firstachivka</li>
+							<li>#hot</li>
+							<li>#newbee</li>
+						</ul>
+				</div>
+			</article>
+			<article class="post"> <!-- new post-->
+				<header>
+					<img class="avatar" src="ава2.jpg">
+					<p id="username"><b>golden_boy</b></p><br> <!--user's avatar and name-->
+					<p id="timeposted">Posted some time ago</p> 	<!--when post was made-->			
+				</header>
+				<div class="userimg">
+					<img class="postedimg" src="арабскийшейх.jpg"> <!--user's image posted-->
+				</div>
+				<div class="comment">
+					<p>Опять подарили барахло. Я постарался сделать пафосную позу, но даже это не помогло. Худший подарок в жизни, теперь займет свое почетное место на аве.</p> <!--user's comment-->
+				</div>
+				<div class="tags">
+						<ul class="tagslist"> <!--list of tags-->
+							<li>#worst</li>
+							<li>#notcool</li>
+							<li>#fuuu</li>
+						</ul>
+				</div>
+			</article>
+		</div>
+	</main>
+ 	
+ 	<footer>
+ 		<p>©Copyright 3148 by Jane Rude. All rights reserved.</p>
+ 	</footer>
+  </body> 
+</html>
