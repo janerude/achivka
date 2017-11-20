@@ -4,8 +4,8 @@
 	<title>Поделиться достижением</title>
 	<link rel="shortcut icon" href="achivka.gif" type="image/x-icon">
 	<link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+<? include("header.php");
+?>
 	<div class="shareform">
 	   <p><b>Ваше имя:</b><br>
 	   <input type="text" size="40"></p>	 
@@ -19,8 +19,5 @@
 	   <p><input type="submit" value="Отправить">
 	   <input type="reset" value="Очистить"></p>
 	</div>
-<footer>
-	<p>©Copyright 3148 by Jane Rude. All rights reserved.</p>
-</footer>
-</body>
-</html>
+<? include ("footer.php");
+?>
