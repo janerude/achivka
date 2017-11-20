@@ -1,4 +1,4 @@
-<? include("header.php");
+<?php include("header.php");
 ?>
 	<div class="shareform">
 	   <p><b>Ваше имя:</b><br>
@@ -13,5 +13,5 @@
 	   <p><input type="submit" value="Отправить">
 	   <input type="reset" value="Очистить"></p>
 	</div>
-<? include ("footer.php");
+<?php include ("footer.php");
 ?>
