@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Поделиться достижением</title>
-	<link rel="shortcut icon" href="achivka.gif" type="image/x-icon">
-	<link rel="stylesheet" href="stylesheet.css">
 <? include("header.php");
 ?>
 	<div class="shareform">

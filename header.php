@@ -1,4 +1,13 @@
-</head>
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+
+   <title>Achivka</title>
+   
+   <link rel="shortcut icon" href="achivka.gif" type="image/x-icon">
+   <link rel="stylesheet" href="stylesheet.css">
+ </head>
  <body>
  	<header>
  		<h1 id="title">ACHIVKA</h1>
